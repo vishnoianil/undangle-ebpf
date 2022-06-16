@@ -1,0 +1,17 @@
+{
+    "cSpell.words": [
+        "Bpftool",
+        "cpumap",
+        "devmap",
+        "getpeername",
+        "getsockname",
+        "getsockopt",
+        "INET",
+        "recvmsg",
+        "sendmsg",
+        "setsockopt",
+        "sockops",
+        "SOCKOPT",
+        "undangle"
+    ]
+}
