@@ -33,7 +33,7 @@ Following table shows how these program types are internally mapped to kernel PR
 | xdp.frags |  BPF_PROG_TYPE_XDP |  BPF_XDP |
 | cgroup_skb/ingress | BPF_PROG_TYPE_CGROUP_SKB | BPF_CGROUP_INET_INGRESS |
 | cgroup_skb/egress | BPF_PROG_TYPE_CGROUP_SKB | BPF_CGROUP_INET_EGRESS |
-| cgroup/skb | BPF_PROG_TYPE_CGROUP_SKB, 0, SEC_NONE | SEC_SLOPPY_PFX),
+| cgroup/skb | BPF_PROG_TYPE_CGROUP_SKB | NA |
 | cgroup/sock_create | BPF_PROG_TYPE_CGROUP_SOCK | BPF_CGROUP_INET_SOCK_CREATE |
 | cgroup/sock_release | BPF_PROG_TYPE_CGROUP_SOCK | BPF_CGROUP_INET_SOCK_RELEASE |
 | cgroup/sock | BPF_PROG_TYPE_CGROUP_SOCK | BPF_CGROUP_INET_SOCK_CREATE |
